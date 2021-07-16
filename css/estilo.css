@@ -1,0 +1,344 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Benne', serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*common*/
+div.menuInicial{
+	height: 55px;
+	background-color: gray;
+	border-bottom: 3px solid blue;
+}
+div.nerd{
+	position: relative;
+	top: 0px;
+	right: -85%;
+	background-color: red;
+	transform: translate(31px, -5px) rotate(45deg) skew(45deg);
+	text-align: right;
+	width: 300px;
+	border-top: 3px solid gold;
+	border-bottom: 3px solid gold;
+}
+.nerd p{
+	transform: skew(-45deg);
+	width: 280px;
+	color: gold;
+}
+.MBD{
+	margin-top: 7px;
+}
+.MBD:hover{
+	transform: scale(1.3);
+}
+p.quote{
+	overflow-x: visible;
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30;
+	border-top: 2px solid white;
+	background: black;
+	min-height: 30px;
+	margin: auto;
+	box-sizing: border-box;
+	color: white;
+}
+.clear{
+	clear: both;
+}
+body{
+	background: url("../media/nebulosa.jpg") repeat-y;
+	background-size: cover;
+	height: auto;
+
+}
+/*index.html*/
+div.GP1{
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-top: 20px;
+	padding-top: 20px;
+}
+div.img1:hover{
+	transform: rotateY(180deg);
+	justify-content: center;
+	align-content: center;
+}
+.img1 img{
+	height: 80%;
+	justify-content: center;
+	align-content: center;
+}
+div.ufp{
+	margin: auto;
+}
+.ufp p.moto1{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	align-content: center;
+	text-shadow: 1px 1px 1px #000000;
+}
+.ufp p.moto2{
+	font-size: 25px;
+	text-align: center;
+	text-transform: capitalize;
+	color: white;
+	text-shadow: 1px 1px 1px #000000;
+}
+.ufp p.moto3{
+	font-size: 25px;
+	text-align: center;
+	text-transform: capitalize;
+	color: white;
+	text-shadow: 1px 1px 1px #000000;
+}
+div.img2:hover{
+	transform: rotateY(180deg);
+	justify-content: center;
+	align-content: center;
+}
+.img2 img{
+	height: 80%;
+	justify-content: center;
+	align-content: center;
+}
+div#contacto{
+	margin: auto;
+	margin-bottom: 10px;
+}
+label.contacto{
+	color: white;
+	text-decoration: underline;
+	font-size: 20px;
+}
+div#GP2{
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+div.ask{
+	text-align: left;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-top: 10px;
+}
+select.form-select{
+	margin-bottom: 5px;
+}
+div.contacto{
+	margin: auto;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+label{
+	list-style-position: outside;
+}
+div.engage{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div.clean{
+	margin-top: 5px;
+}
+.custom-btn {
+	width: 130px;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline-block;
+	box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+		7px 7px 20px 0px rgba(0,0,0,.1),
+		4px 4px 5px 0px rgba(0,0,0,.1);
+	outline: none;
+}
+.btn-12{
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border:none;
+  box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12 span {
+  background: rgb(0,172,238);
+background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  border-radius: 5px;
+  margin:0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+ color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+h5.cont{
+	color: white;
+}
+/*lore.html*/
+div.lore{
+	color: white;
+	text-align: center;
+	font-style: italic;
+	padding-top: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+a.lore{
+	font-size: 35px;
+	color: red;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+div img{
+	margin: auto;
+	width: auto;
+}
+/*sagas*/
+div.sagas{
+	color: white;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+	padding-top: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+div ol li{
+	padding-top: 10px;
+}
+a.Sagas{
+	text-decoration: none;
+	font-size: 35;
+	color: red;
+}
+/*Strange new worlds*/
+div.snw{
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin-top: 20px;
+}
+div.flexbox{
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	
+}
+div.flexbox1{
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+.flexbox1 img{
+	width: 90%;
+	align-content: center;
+	justify-content: center;
+} 
+.flexbox2 p{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+div.cnt{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 50px;
+}
+a.snw{
+	color: red;
+	font-size: 35px;
+}
+/*data.html*/
+div.soong{
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.4);
+	margin: auto;
+
+}
+
+div.data{
+	min-height: 150px;
+	margin: auto;
+	margin-top: 20px;
+}
+div.lal{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+a.data{
+	color: red;
+}
+div.geneData{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
